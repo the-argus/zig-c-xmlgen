@@ -4,8 +4,8 @@
 
     .dependencies = .{
         .libxml = .{
-            .url = "https://github.com/the-argus/libxml2/archive/a1988c2456c7e638bc2a70dcf2267f0d692e25be.tar.gz",
-            .hash = "1220aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            .url = "https://github.com/the-argus/libxml2/archive/02772f2d71a88d703337a611e6cdf22cf0de7f61.tar.gz",
+            .hash = "12205dcda15c3c91af595318a1fc69475fadec0a0501e97c3179e32dd948c4911d7c",
         },
     }
 }
