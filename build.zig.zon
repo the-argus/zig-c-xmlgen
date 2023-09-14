@@ -1,0 +1,11 @@
+.{
+    .name = "zig_c_xmlgen",
+    .version = "0.0.1",
+
+    .dependencies = .{
+        .libxml = .{
+            .url = "https://github.com/the-argus/libxml2/archive/a1988c2456c7e638bc2a70dcf2267f0d692e25be.tar.gz",
+            .hash = "1220aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        },
+    }
+}
