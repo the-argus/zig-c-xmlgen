@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry>
+    <type name="VkAttachmentLoadOp" category="enum"/>
+    <enums name="VkAttachmentLoadOp" type="enum">
+        <enum value="0"     name="VK_ATTACHMENT_LOAD_OP_LOAD"/>
+        <enum value="1"     name="VK_ATTACHMENT_LOAD_OP_CLEAR"/>
+        <enum value="2"     name="VK_ATTACHMENT_LOAD_OP_DONT_CARE"/>
+    </enums>
+    <type category="struct" name="StructForNoReason">
+        <member optional="true"><type>int</type> <name>flags</name></member>
+        <member><type>void*</type>               <name>format</name></member>
+        <member><type>VkAttachmentLoadOp</type>     <name>stencilLoadOp</name></member>
+    </type>
+</registry>
