@@ -8,7 +8,7 @@ pub fn build(b: *std.Build) !void {
 
     const main_tests = b.addTest(.{
         .name = "test_exe",
-        .root_source_file = .{ .path = "src/test_convert.zig" },
+        .root_source_file = .{ .path = "tests/test_convert.zig" },
         .optimize = optimize,
         .target = target,
     });
